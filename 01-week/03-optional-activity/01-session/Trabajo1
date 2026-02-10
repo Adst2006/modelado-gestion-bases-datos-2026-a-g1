@@ -1,0 +1,9 @@
+¿Qué criterios usaría para decidir cuándo migrar de archivos planos a un SGBD?
+
+Migraría de archivos planos a un SGBD cuando el sistema empiece a presentar problemas como duplicación de datos, errores en la información y dificultad para consultar datos completos. También sería clave el momento en que varias personas necesitan acceder al mismo tiempo, ya que los archivos como Excel no manejan bien la concurrencia y pueden sobrescribirse.
+Otro criterio importante es la seguridad, porque los archivos planos no controlan adecuadamente permisos ni accesos. Cuando el volumen de datos crece y se vuelve necesario garantizar integridad, respaldo y consultas eficientes, un SGBD se vuelve la mejor opción.
+
+¿Qué tipo de SGBD (relacional o NoSQL) parece más adecuado para este contexto y por qué?
+
+Para el sistema académico, el SGBD relacional es el más adecuado. Esto se debe a que maneja datos bien estructurados como estudiantes, asignaturas y notas, los cuales tienen relaciones claras entre sí. Además, el uso de claves primarias y foráneas ayuda a mantener la integridad de las notas y evita inconsistencias.
+El lenguaje SQL permite realizar consultas complejas, como obtener el historial completo de un estudiante, algo fundamental en un entorno académico. En cambio, NoSQL es más útil cuando hay datos muy variables o no estructurados, lo cual no es el caso principal en este escenario.
