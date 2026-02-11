@@ -1,0 +1,11 @@
+¿Qué pasaría si no definimos correctamente las claves de cada entidad desde el inicio?
+
+Si no se definen bien las claves desde el inicio, pueden aparecer muchos problemas en la base de datos, como registros repetidos o errores al relacionar la información. Por ejemplo, un estudiante podría quedar matriculado varias veces porque no existe una forma clara de identificarlo. Esto afecta la organización de los datos y hace que el sistema no sea confiable ni eficiente.
+
+¿Qué ventajas aporta tener identificadas las entidades antes de pasar al diagrama ER formal?
+
+Tener identificadas las entidades desde el principio ayuda a entender mejor cómo funciona el sistema académico y qué información se debe guardar. Esto hace que el diagrama entidad–relación sea más fácil de construir y más ordenado, evitando confusiones y datos innecesarios. Además, permite que el diseño de la base de datos sea más claro desde el inicio.
+
+¿Qué información adicional consideras crítica en un sistema académico que aún no hemos modelado?
+
+Considero que es importante incluir información sobre los docentes, ya que ellos están directamente relacionados con los grupos y las asignaturas. También sería clave agregar datos del programa académico y el historial del estudiante, porque permiten llevar un mejor control del proceso académico y facilitan la generación de reportes.
